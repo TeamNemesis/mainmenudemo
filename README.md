@@ -78,7 +78,7 @@ User Interface (MainMenu.cs) Configuration:
             - The game version will be automatically updated to the current Project Version which can be changed at
             - 'Edit > Project Settings > Player > Version'
 
-'All Buttons' (ResponsiveButton.cs) Configuration:
+ResponsiveButtons.cs Configuration:
 
             - We wanted to add a little bit of a responsive feeling to all of the buttons, because of this all buttons needed 
             - a little bit of configuration.
@@ -96,7 +96,13 @@ User Interface (MainMenu.cs) Configuration:
                     - and call the "ResponsiveButton.ExitHover" function from there.
             
                 - Pointer Down Configuration:
-                    - The configuration for the Pointer Down is kinda different
+                    - The configuration for the Pointer Down is kinda different, because we want to trigger an event that
+                    - actually add's functionallity to the button.
+                    - By default all of those events are stored in the MainMenu.cs script, which is attached to the 
+                    - 'User Interface' by default.
+                    - So in order to trigger a default event, we have to add the 'User Interface' as an object of
+                    - the event, now we can call a function from the MainMenu.cs script thru the MainMenu.cs.
+                    - (Examples: 'MainMenu.PlayButton' or 'MainMenu.QuitButton')
 
 ## Sour-code overview
 
