@@ -78,8 +78,25 @@ User Interface (MainMenu.cs) Configuration:
             - The game version will be automatically updated to the current Project Version which can be changed at
             - 'Edit > Project Settings > Player > Version'
 
+'All Buttons' (ResponsiveButton.cs) Configuration:
 
-
+            - We wanted to add a little bit of a responsive feeling to all of the buttons, because of this all buttons needed 
+            - a little bit of configuration.
+            - The 'ResponsiveButton' script should always be attached to the button itself, the text of
+            - the button should contain the 'Event Trigger' component, and require the
+            - 'Pointer Enter', 'Pointer Exit' & 'Pointer Down' Event Type which can be added by clicking on
+            - "Add New Event Type".
+            
+                - Pointer Enter Configuration:
+                    - Once you added the "Pointer Enter" Event Type, you have to add the parent button as the Game Object,
+                    - and call the ResponsiveButton.Hover function from there.
+            
+                - Pointer Exit Configuration:
+                    - Once you added the "Pointer Exit" Event Type, you have to add the parent button as the Game Object,
+                    - and call the "ResponsiveButton.ExitHover" function from there.
+            
+                - Pointer Down Configuration:
+                    - The configuration for the Pointer Down is kinda different
 
 ## Sour-code overview
 
