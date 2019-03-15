@@ -52,12 +52,33 @@ Scripts:
     - PlayerController
           - Powers the 'Player' prefab which is used in the 'Sample Scene' scene.
           
-          
-## Basic Configuration
-
-
 ## Important Notes
-We recommend you to read these notes carefully, ignoring them may lead to disfunction of the product.
+We recommend you to read these notes carefully, ignoring them may lead to disfunction of the product.   
+
+Some main menu packs/tutorials may use the 'OnClick()' function which is by default attached to the button itself.
+Since we wanted to add a more responsive feeling to the buttons, we had to use the 'Even Trigger' component which is attached to the text of the button.
+Because of this the 'OnClick()' function may not work in some cases, and we'll recommend you to use the 'Event Trigger' component attached to the text of each button instead.
+
+## Basic Configuration
+This section contains basic configurations for the main menu demo, do note that we won't explain how you can change the text of a button since this is basic Unity knowledge.
+
+User Interface (MainMenu.cs) Configuration:
+
+        - Play Scene:
+            - The 'Play Scene' defines the scene which will be loaded once the player presses the 'Play' button, this variable
+            - has to be the integer of the scene which can be found in the 'Build Settings'.
+            - We defaulted it to 1, since this is the integer of the 'Sample Scene' scene.
+            
+        - Checkbox;
+            - The Checkbox GameObject variable is used to identify the checkbox icon used at the Fullscreen Toggle 
+            - at the 'Settings' panel.
+            
+        - Game Version:
+            - This Text variable is used to identify the text box used for game version.
+            - The game version will be automatically updated to the current Project Version which can be changed at
+            - 'Edit > Project Settings > Player > Version'
+
+
 
 
 ## Sour-code overview
