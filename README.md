@@ -120,6 +120,3 @@ Because of this the 'OnClick()' function may not work in some cases, and we'll r
             - 'if(Input.GetKeyDown(KeyCode.Escape))'
             - In order to change the key to trigger the pause menu you have to
             - change 'Escape' to your desired button.
-
-## Source-code overview
-
