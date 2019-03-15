@@ -103,6 +103,17 @@ Because of this the 'OnClick()' function may not work in some cases, and we'll r
                     - So in order to trigger a default event, we have to add the 'User Interface' as an object of
                     - the event, now we can call a function from the MainMenu.cs script thru the MainMenu.cs.
                     - (Examples: 'MainMenu.PlayButton' or 'MainMenu.QuitButton')
+                    
+### PauseMenu.cs Configuration:
+
+            - The PauseMenu.cs is the script to power the Pause Menu (obviously).
+            - This script contains 2 configurations. 
+                 1. The first configurable thing is a GameObject Variable which is used to identify 
+                    the Pause Menu itself, so it can be enabled or disabled 
+                    whenever the player presses the Escape button.
+                    
+                 2. The second configurable variable is an integer to identify what scene has to be
+                    loaded when the player clicks on the Exit Button.
 
 ## Source-code overview
 
