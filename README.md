@@ -11,15 +11,23 @@ All used fonts are downloaded from 'www.dafont.com' and were licensed with permi
 
 ## What is included within this pack.
 Fonts:
+
     - Mostly Mono
+    
     - Ninja Naruto
+    
     - Qarmic Abridged
+    
     - Teen
     
 Prefabs:
+
     - Block (used for decoration)
+    
     - Main Menu UI
+    
     - Pause Menu UI
+    
     - Player
     
 Scenes:
