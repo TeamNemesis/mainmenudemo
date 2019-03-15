@@ -10,7 +10,7 @@ Official documentation for the Main Menu Demo for Unity3D made by Team Nemesis.
 All used fonts are downloaded from 'www.dafont.com' and were licensed with permission for commercial use.
 
 ## What is included within this pack.
-Fonts:
+### Fonts:
 
     - Mostly Mono
     
@@ -20,7 +20,7 @@ Fonts:
     
     - Teen
     
-Prefabs:
+### Prefabs:
 
     - Block (used for decoration)
     
@@ -30,11 +30,11 @@ Prefabs:
     
     - Player
     
-Scenes:
+### Scenes:
     - Main Menu (This scene contains the main menu example)
     - Sample Scene (This scene contains the pause menu example)
 
-Scripts:
+### Scripts:
 
     - BlockBehaviour & BlockSpawner 
           -You can ignore these, these are used for the main menu background 
@@ -53,16 +53,16 @@ Scripts:
           - Powers the 'Player' prefab which is used in the 'Sample Scene' scene.
           
 ## Important Notes
-We recommend you to read these notes carefully, ignoring them may lead to disfunction of the product.   
+### We recommend you to read these notes carefully, ignoring them may lead to disfunction of the product.   
 
 Some main menu packs/tutorials may use the 'OnClick()' function which is by default attached to the button itself.
 Since we wanted to add a more responsive feeling to the buttons, we had to use the 'Even Trigger' component which is attached to the text of the button.
 Because of this the 'OnClick()' function may not work in some cases, and we'll recommend you to use the 'Event Trigger' component attached to the text of each button instead.
 
 ## Basic Configuration
-This section contains basic configurations for the main menu demo, do note that we won't explain how you can change the text of a button since this is basic Unity knowledge.
+### This section contains basic configurations for the main menu demo, do note that we won't explain how you can change the text of a button since this is basic Unity knowledge.
 
-User Interface (MainMenu.cs) Configuration:
+### User Interface (MainMenu.cs) Configuration:
 
         - Play Scene:
             - The 'Play Scene' defines the scene which will be loaded once the player presses the 'Play' button, this variable
@@ -78,7 +78,7 @@ User Interface (MainMenu.cs) Configuration:
             - The game version will be automatically updated to the current Project Version which can be changed at
             - 'Edit > Project Settings > Player > Version'
 
-ResponsiveButtons.cs Configuration:
+### ResponsiveButtons.cs Configuration:
 
             - We wanted to add a little bit of a responsive feeling to all of the buttons, because of this all buttons needed 
             - a little bit of configuration.
@@ -104,5 +104,5 @@ ResponsiveButtons.cs Configuration:
                     - the event, now we can call a function from the MainMenu.cs script thru the MainMenu.cs.
                     - (Examples: 'MainMenu.PlayButton' or 'MainMenu.QuitButton')
 
-## Sour-code overview
+## Source-code overview
 
