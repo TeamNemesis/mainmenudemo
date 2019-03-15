@@ -30,12 +30,16 @@ Scripts:
     - BlockBehaviour & BlockSpawner 
           -You can ignore these, these are used for the main menu background 
            but doesn't add any kind of functionallity to the product itself.
+           
     - MainMenu 
           - Contains all the functionallity for the main menu.
+          
     - PauseMenu 
           - Contains all the functionallity for the pause menu.
+          
     - ResponsiveButton 
           - This is used to add a simple effect to the buttons when a user is hovering over it.
+          
     - PlayerController
           - Powers the 'Player' prefab which is used in the 'Sample Scene' scene.
           
