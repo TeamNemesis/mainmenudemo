@@ -114,6 +114,12 @@ Because of this the 'OnClick()' function may not work in some cases, and we'll r
                     
                  2. The second configurable variable is an integer to identify what scene has to be
                     loaded when the player clicks on the Exit Button.
+                    
+            - The button to trigger the pause menu can only be set within the PauseMenu.cs.
+            - At line 12 of PauseMenu.cs you will find the following line of code:
+            - 'if(Input.GetKeyDown(KeyCode.Escape))'
+            - In order to change the key to trigger the pause menu you have to
+            - change 'Escape' to your desired button.
 
 ## Source-code overview
 
